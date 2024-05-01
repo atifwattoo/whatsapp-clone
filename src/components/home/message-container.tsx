@@ -7,7 +7,7 @@ const MessageContainer = () => {
 			<div className='mx-12 flex flex-col gap-3 h-full'>
 				{messages?.map((msg, idx) => (
 					<div key={msg._id}>
-						<ChatBubble />
+						<ChatBubble message={msg.content}  />
 					</div>
 				))}
 			</div>
