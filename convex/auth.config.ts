@@ -1,7 +1,7 @@
 const authConfig = {
     providers: [
       {
-        domain: "https://refined-walrus-3.clerk.accounts.dev.clerk.accounts.dev/",
+        domain: "https://refined-walrus-3.clerk.accounts.dev",
         applicationID: "convex",
       },
     ]
